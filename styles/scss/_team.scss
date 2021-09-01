@@ -1,0 +1,128 @@
+.team {
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  &__btn {
+    margin: 40px 0 0;
+  }
+  .team-video {
+    position: relative;
+    &__media {
+      border-radius: 3px;
+      width: 280px;
+      height: auto;
+    }
+  }
+  .team-content {
+    margin: 40px 0;
+    position: relative;
+    &__title {
+      color: #4A4A4A;
+      font-size: 24px;
+      font-family: 'Roboto Condensed', sans-serif;
+      line-height: 38px;
+      font-weight: 400;
+      margin-bottom: 50px;
+    }
+    &__title:before {
+      content: '';
+      position: absolute;
+      top: 55px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 45px;
+      height: 8px;
+      background-color: #2B4074;
+    }
+    &__text {
+      color: #9B9B9B;
+      font-size: 16px;
+      line-height: 18px;
+
+    }
+  }
+}
+
+@media (min-width: 540px) {
+  .team {
+    &__inner {
+      padding-top: 55px;
+      padding-bottom: 75px;
+    }
+    &__btn {
+      margin: 0 ;
+      position: absolute;
+      width: 230px;
+      top: 210%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .team-video {
+      &__media {
+        width: 520px;
+      }
+    }
+    .team-content {
+      &__title {
+        font-size: 36px;
+        margin-bottom: 70px;
+      }
+      &__title:before {
+        top: 60px;
+        width: 100px;
+      }
+      &__text {
+        max-width: 550px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .team {
+    padding-bottom: 40px;
+    &__inner {
+      justify-content: space-around;
+      flex-direction: row;
+      text-align: left;
+      padding-top: 50px;
+      padding-bottom: 40px;
+      margin: 0 auto;
+    }
+    &__btn {
+      position: absolute;
+      left: 0;
+      transform: translateX(0);
+      top: 85%;
+    }
+    .team-video {
+      margin: 0 60px 0 0;
+      &__media {
+        width: 400px;
+      }
+    }
+    .team-content {
+      margin: 0;
+      &__title {
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 42px;
+      }
+      &__title:before {
+        top: 65px;
+        left: 0;
+        transform: translateX(0);
+      }
+      &__text {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-------------------Dosis----------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <!-------------------Roboto----------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.g    static.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-------------------RobotoCondensed----------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <!-------------------CSS----------------->
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="styles/css/style.css">
+    <!--font awesome-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/36f6f7077c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="app">
+    <div class="menu container">
+        <a href="#" class="menu__logo-link">Di Gi<br>
+            <span>digital agency</span>
+        </a>
+        <div class="burger"><span></span></div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" onclick="slowScroll('#home')" class="nav__item-link" >Home</a></li>
+                <li class="nav__item"><a href="#services" onclick="slowScroll('#services')" class="nav__item-link" >Services</a></li>
+                <li class="nav__item"><a href="#projects" onclick="slowScroll('#projects')" class="nav__item-link" >Projects</a></li>
+                <li class="nav__item"><a href="#team" onclick="slowScroll('#team')" class="nav__item-link" >Team</a></li>
+                <li class="nav__item"><a href="#news" onclick="slowScroll('#news')" class="nav__item-link" >News</a></li>
+                <li class="nav__item"><a href="#contacts" onclick="slowScroll('#contacts')" class="nav__item-link" >Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section id="home" class="home">
+        <div class="home-slider">
+            <div class="home-slider__item">
+                <h2 class="item-title">Мысли глобально</h2>
+                <div class="item-text">
+                    Di Gі - это диджитал агентство
+                    полного цикла, направленное на
+                    самый лучший результат наших
+                    клиентов в маркетинге, продажах
+                    и управлении
+                </div>
+                <button class="item-btn btn">Подробнее</button>
+            </div>
+            <div class="home-slider__item">
+                <h2 class="item-title">Мысли глобально</h2>
+                <div class="item-text">
+                    Di Gі - это диджитал агентство
+                    полного цикла, направленное на
+                    самый лучший результат наших
+                    клиентов в маркетинге, продажах
+                    и управлении
+                </div>
+                <button class="item-btn btn">Подробнее</button>
+            </div>
+            <div class="home-slider__item">
+                <h2 class="item-title">Мысли глобально</h2>
+                <div class="item-text">
+                    Di Gі - это диджитал агентство
+                    полного цикла, направленное на
+                    самый лучший результат наших
+                    клиентов в маркетинге, продажах
+                    и управлении
+                </div>
+                <button class="item-btn btn">Подробнее</button>
+            </div>
+        </div>
+    </section>
+    <section class="promo">
+        <div class="promo-inner container">
+            <div class="inner-text">
+                <h2 class="promo-inner__title">
+                    Вы полюбите нас с первой встречи!
+                </h2>
+                <div class="promo-inner__desc">
+                    Мы предоставляем комплексный
+                    подход к продвижению компании,
+                    продуктов и услуг в цифровой сфере.
+                </div>
+            </div>
+
+            <button class="promo-inner__btn btn">
+                Перезвоните мне
+            </button >
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="services-text container">
+            <h2 class="services-text__title">
+                Сервис
+            </h2>
+            <h3 class="services-text__slogan">
+                От идеи до незабываемого и
+                измеримого результата.
+            </h3>
+            <div class="services-text__desc">
+                Интеграция безупречного
+                производства, передовых
+                технологий и тщательного
+                измерения производительности
+            </div>
+        </div>
+        <div class="services-list container">
+            <div class="services-list__item-wrapper">
+                <div class="services-list__item">
+                    <i class="services-list__item-icon fas fa-chess-king"></i>
+                    <div class="services-list__item-name">
+                        Стратегия
+                    </div>
+                    <div class="disable-content">
+                        <div class="disable-content__text">
+                            Создадим уникальный
+                            и удобный дизайн
+                        </div>
+                        <a class="disable-content__link" href="#">Подробнее <i class="disable-content__link-ico fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-list__item-wrapper">
+                <div class="services-list__item">
+                    <i class="services-list__item-icon  fas fa-chart-line"></i>
+                    <div class="services-list__item-name">
+                        Анализ
+                    </div>
+                    <div class="disable-content">
+                        <div class="disable-content__text">
+                            Создадим уникальный
+                            и удобный дизайн
+                        </div>
+                        <a class="disable-content__link" href="#">Подробнее <i class="disable-content__link-ico fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-list__item-wrapper">
+                <div class="services-list__item">
+                    <i class="services-list__item-icon  fas fa-project-diagram"></i>
+                    <div class="services-list__item-name">
+                        Соц Сети
+                    </div>
+                    <div class="disable-content">
+                        <div class="disable-content__text">
+                            Создадим уникальный
+                            и удобный дизайн
+                        </div>
+                        <a class="disable-content__link" href="#">Подробнее <i class="disable-content__link-ico fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-list__item-wrapper">
+                <div class="services-list__item">
+                    <i class="services-list__item-icon  far fa-file-code"></i>
+                    <div class="services-list__item-name">
+                        Развитие
+                    </div>
+                    <div class="disable-content">
+                        <div class="disable-content__text">
+                            Создадим уникальный
+                            и удобный дизайн
+                        </div>
+                        <a class="disable-content__link" href="#">Подробнее <i class="disable-content__link-ico fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-list__item-wrapper">
+                <div class="services-list__item">
+                    <i class="services-list__item-icon  fas fa-object-group"></i>
+                    <div class="services-list__item-name">
+                        Контент
+                    </div>
+                    <div class="disable-content">
+                        <div class="disable-content__text">
+                            Создадим уникальный
+                            и удобный дизайн
+                        </div>
+                        <a class="disable-content__link" href="#">Подробнее <i class="disable-content__link-ico fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-list__item-wrapper">
+                <div class="services-list__item">
+                    <i class="services-list__item-icon  far fa-lightbulb"></i>
+                    <div class="services-list__item-name">
+                        Дизайн UX
+                    </div>
+                    <div class="disable-content">
+                        <div class="disable-content__text">
+                            Создадим уникальный
+                            и удобный дизайн
+                        </div>
+                        <a class="disable-content__link" href="#">Подробнее <i class="disable-content__link-ico fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-list__item-wrapper">
+                <div class="services-list__item">
+                    <i class="services-list__item-icon  fas fa-briefcase"></i>
+                    <div class="services-list__item-name">
+                        Реклама
+                    </div>
+                    <div class="disable-content">
+                        <div class="disable-content__text">
+                            Создадим уникальный
+                            и удобный дизайн
+                        </div>
+                        <a class="disable-content__link" href="#">Подробнее <i class="disable-content__link-ico fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-list__item-wrapper">
+                <div class="services-list__item">
+                    <i class="services-list__item-icon  fab fa-product-hunt"></i>
+                    <div class="services-list__item-name">
+                        Продукт
+                    </div>
+                    <div class="disable-content">
+                        <div class="disable-content__text">
+                            Создадим уникальный
+                            и удобный дизайн
+                        </div>
+                        <a class="disable-content__link" href="#">Подробнее <i class="disable-content__link-ico fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="projects__inner container">
+            <h2 class="projects__title">
+                Наши Проекты
+            </h2>
+            <div class="projects-gallery">
+                <div class="projects-gallery__item">
+                    <img class="projects-gallery__img" src="img/proj-img-1.png" alt="photo of one of our projects - a boutique in France">
+                    <div class="projects-gallery__overflow-elem">
+                        <a class="overflow-item-link" href=""><i class="overflow-item-icon question far fa-question-circle"></i></a>
+                        <a class="overflow-item-link" href=""><i class="overflow-item-icon  search fas fa-search"></i></a>
+                    </div>
+                    <h6 class="projects-gallery__item-title">Lalique бутик</h6>
+                </div>
+                <div class="projects-gallery__item">
+                    <img class="projects-gallery__img" src="img/proj-img-2.png" alt="photo of one of our projects-a design house.">
+                    <div class="projects-gallery__overflow-elem">
+                        <a class="overflow-item-link" href=""><i class="overflow-item-icon question far fa-question-circle"></i></a>
+                        <a class="overflow-item-link" href=""><i class="overflow-item-icon search fas fa-search"></i></a>
+                    </div>
+                    <h6 class="projects-gallery__item-title">Строительство домов</h6>
+                </div>
+                <div class="projects-gallery__item">
+                    <img class="projects-gallery__img" src="img/proj-img-3.png" alt="photo of one of our projects-design of unique coffee shops.">
+                    <div class="projects-gallery__overflow-elem">
+                        <a class="overflow-item-link" href=""><i class="overflow-item-icon question far fa-question-circle"></i></a>
+                        <a class="overflow-item-link" href=""><i class="overflow-item-icon search fas fa-search"></i></a>
+                    </div>
+                    <h6 class="projects-gallery__item-title">Кофейня</h6>
+                </div>
+                <div class="projects-gallery__item">
+                    <img class="projects-gallery__img" src="img/proj-img-4.png" alt="photos of the Maldives tour">
+                    <div class="projects-gallery__overflow-elem">
+                        <a class="overflow-item-link" href=""><i class="overflow-item-icon question far fa-question-circle"></i></a>
+                        <a class="overflow-item-link" href=""><i class="overflow-item-icon search fas fa-search"></i></a>
+                    </div>
+                    <h6 class="projects-gallery__item-title">Уникальные туры</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="team">
+        <div class="team__inner container ">
+            <div class="team-video">
+                <video class="team-video__media" src="img/team-video.mp4"></video>
+                <button class="team__btn btn">Смотреть видео</button>
+            </div>
+            <div class="team-content">
+                <h2 class="team-content__title">Команда</h2>
+                 <p class="team-content__text">
+                     Наша команда - это наша самая
+                     большая ценность. Мы трудились,
+                     чтобы собрать группу экспертов,
+                     чьи навыки дополняют друг друга.
+                     У членов нашей команды разные
+                     истории, мы разделяем общую страсть
+                     к идеалу. Мы верим, чтобы оставаться
+                     профессионалом, нужно развиваться,
+                     поэтому мы постоянно ищем способы,
+                     как стать лучше в том, что мы делаем.
+                 </p>
+            </div>
+
+        </div>
+    </section>
+    <section id="news" class="news">
+        <div class="news__inner container">
+            <h2 class="news__title">Последние Новости</h2>
+            <div class="news-wrapper">
+                <div class="news-wrapper__item">
+                    <div class="news-wrapper__item-title">
+                        3D в брендинге
+                    </div>
+                    <div class="news-wrapper__img-container">
+                        <img class="news-wrapper__img" src="img/news-1.png" alt="">
+                    </div>
+                    <a class="news-wrapper__info-icon" href="">
+                        <i class="info-icon overflow-item-icon question far fa-question-circle"></i>
+                    </a>
+                </div>
+                <div class="news-wrapper__item">
+                    <div class="news-wrapper__img-container">
+                        <img class="news-wrapper__img" src="img/news-2.png" alt="">
+                    </div>
+                    <div class="news-wrapper__item-title">
+                        Контекстная реклама
+                    </div>
+                    <a class="news-wrapper__info-icon" href="">
+                        <i class="info-icon overflow-item-icon question far fa-question-circle"></i>
+                    </a>
+                </div>
+                <div class="news-wrapper__item">
+                    <div class="news-wrapper__img-container">
+                        <img class="news-wrapper__img" src="img/news-3.png" alt="">
+                    </div>
+                    <div class="news-wrapper__item-title">
+                        Грифика
+                    </div>
+                    <a class="news-wrapper__info-icon" href="">
+                        <i class="info-icon overflow-item-icon question far fa-question-circle"></i>
+                    </a>
+                </div>
+                <div class="news-wrapper__item">
+                    <div class="news-wrapper__img-container">
+                        <img class="news-wrapper__img" src="img/news-4.png" alt="">
+                    </div>
+                    <div class="news-wrapper__item-title">
+                        Корпоративная культура
+                    </div>
+                    <a class="news-wrapper__info-icon" href="">
+                        <i class="info-icon overflow-item-icon question far fa-question-circle"></i>
+                    </a>
+                </div>
+                <div class="news-wrapper__item">
+                    <div class="news-wrapper__img-container">
+                        <img class="news-wrapper__img" src="img/news-5.png" alt="">
+                    </div>
+                    <div class="news-wrapper__item-title">
+                        Уникальный дизайн
+                    </div>
+                    <a class="news-wrapper__info-icon" href="">
+                        <i class="info-icon overflow-item-icon question far fa-question-circle"></i>
+                    </a>
+                </div>
+                <div class="news-wrapper__item">
+                    <div class="news-wrapper__img-container">
+                        <img class="news-wrapper__img" src="img/news-6.png" alt="">
+                    </div>
+                    <div class="news-wrapper__item-title">
+                        Взгляд со стороны
+                    </div>
+                    <a class="news-wrapper__info-icon" href="">
+                        <i class="info-icon overflow-item-icon question far fa-question-circle"></i>
+                    </a>
+                </div>
+                <div class="news-wrapper__item">
+                    <div class="news-wrapper__img-container">
+                        <img class="news-wrapper__img" src="img/news-7.png" alt="">
+                    </div>
+                    <div class="news-wrapper__item-title">
+                        Соц сети и их польза
+                    </div>
+                    <a class="news-wrapper__info-icon" href="">
+                        <i class="info-icon overflow-item-icon question far fa-question-circle"></i>
+                    </a>
+                </div>
+                <div class="news-wrapper__item">
+                    <div class="news-wrapper__img-container">
+                        <img class="news-wrapper__img" src="img/news-8.png" alt="">
+                    </div>
+                    <div class="news-wrapper__item-title">
+                        Эксклюзивность
+                    </div>
+                    <a class="news-wrapper__info-icon" href="">
+                        <i class="info-icon overflow-item-icon question far fa-question-circle"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="quotes-block">
+        <div class="quotes-block__inner container">
+            <img class="quotes-block__top-icon" src="img/quotation-marks.svg" alt="">
+            <div class="quotes-block__slider">
+                <div class="quotes-block__slider-item">
+                    <p class="quotes-block__item-slogan">
+                        Если нужно создавать либо повышать имидж компании,<br>
+                        то <span style="color:#2b4074; font-weight: 700;">диджитал-маркетинг </span>является наиболее подходящим
+                    </p>
+                    <div class="quotes-block__slogan-author">
+                        - Маргарита Акулич
+                    </div>
+                </div>
+                <div class="quotes-block__slider-item">
+                    <p class="quotes-block__item-slogan">
+                        Если нужно создавать либо повышать имидж компании,<br>
+                        то <span style="color:#2b4074; font-weight: 700;">диджитал-маркетинг </span>является наиболее подходящим
+                    </p>
+                    <div class="quotes-block__slogan-author">
+                        - Маргарита Акулич
+                    </div>
+                </div>
+                <div class="quotes-block__slider-item">
+                    <p class="quotes-block__item-slogan">
+                        Если нужно создавать либо повышать имидж компании,<br>
+                        то <span style="color:#2b4074; font-weight: 700;">диджитал-маркетинг </span>является наиболее подходящим
+                    </p>
+                    <div class="quotes-block__slogan-author">
+                        - Маргарита Акулич
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contacts" class="footer">
+        <div class="footer__inner container">
+            <div class="footer__text">
+                Мы хотели бы услышать все о вашем проекте.
+                Свяжись с нами.
+            </div>
+            <div class="footer__ico-container">
+                <a href="https://www.facebook.com/" class="footer__ico-link">
+                    <i class="footer__ico fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.google.com/" class="footer__ico-link">
+                    <i class="footer__ico fab fa-google"></i>
+                </a>
+                <a href="https://twitter.com/twitter" class="footer__ico-link">
+                    <i class="footer__ico fab fa-twitter"></i>
+                </a>
+                <a href="https://www.pinterest.com/" class="footer__ico-link">
+                    <i class="footer__ico fab fa-pinterest"></i>
+                </a>
+            </div>
+            <div class="footer__info-container">
+                <div class="footer__info-item">
+                    <h6 class="footer__info-title">
+                        КОНТАКТЫ
+                    </h6>
+                    <div class="footer__info-content">
+                        +80 555 55 66
+                        digi@gmail.com
+                    </div>
+                </div>
+                <div class="footer__info-item">
+                    <h6 class="footer__info-title">
+                        АДРЕС
+                    </h6>
+                    <div class="footer__info-content">
+                        Пр. Науки 107 <br>
+                        Kиев / Украина
+                    </div>
+                </div>
+                <div class="footer__info-item">
+                    <h6 class="footer__info-title">
+                        ПОМОЩЬ
+                    </h6>
+                    <div class="footer__info-content">
+                        Как с нами связаться?
+                        Что такое диджитал?
+                        Стоимость услуг
+                    </div>
+                </div>
+                <div class="footer__info-item">
+                    <h6 class="footer__info-title">
+                        МЕНЮ
+                    </h6>
+                    <div class="footer__info-content">
+                        Наши проекты
+                        Команда
+                        Блог
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="arrow-up">
+        <a href="#home" onclick="slowScroll('#home')" class="arrow-up__text">Вверх</a>
+        <i class="arrow-up__ico fas fa-chevron-up"></i>
+    </div>
+</div>
+<script src="libs/slick/slick.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

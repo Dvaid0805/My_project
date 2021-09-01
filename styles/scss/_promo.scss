@@ -1,0 +1,102 @@
+.promo-inner {
+  background-color: #2B4074;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  &__title {
+    width: 280px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0  auto 10px;
+  }
+  &__desc {
+    width: 260px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+    margin: 0  auto 40px;
+  }
+  &__btn {
+    border: 1px solid #F9F6E5 ;
+    background-color:#2B4074;
+    color:#F9F6E5 ;
+  }
+}
+
+@media(min-width:640px) {
+  .promo-inner {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    &__title {
+      width: auto;
+      margin: 0  auto 20px;
+    }
+    &__desc {
+      width: auto;
+    }
+  }
+}
+
+@media(min-width:768px) {
+  .promo-inner {
+    padding-bottom: 20px;
+    padding-top: 74px;
+    display: flex;
+    justify-content: space-between;
+    .inner-text {
+      text-align: left;
+      height: auto;
+    }
+    &__title {
+      width: auto;
+      margin: 0 0 25px;
+    }
+    &__desc {
+      width: 315px;
+      margin: 0;
+    }
+  }
+}
+@media(min-width:1024px) {
+  .promo-inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .inner-text {
+
+    }
+    &__title {
+      font-size: 18px;
+      line-height: 1;
+    }
+    &__desc {
+      font-size: 14px;
+      line-height: 16px;
+      width: 470px;
+    }
+    &__btn {
+      margin: auto 0 ;
+    }
+  }
+}
+
+@media(min-width:1220px) {
+  .promo-inner {
+    padding-top: 57px;
+    padding-bottom: 57px;
+
+    &__title {
+      font-size: 24px;
+      line-height: 32px;
+      margin: 0 0 15px;
+    }
+    &__desc {
+      font-size: 16px;
+      line-height: 18px;
+      width: 540px;
+    }
+  }
+}
